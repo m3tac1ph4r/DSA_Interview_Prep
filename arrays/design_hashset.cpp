@@ -25,3 +25,7 @@ public:
  * obj->remove(key);
  * bool param_3 = obj->contains(key);
  */
+
+ /*
+ https://leetcode.com/problems/design-hashset/
+ */
