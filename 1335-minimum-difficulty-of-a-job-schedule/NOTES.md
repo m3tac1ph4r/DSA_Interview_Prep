@@ -2,7 +2,8 @@ https://youtu.be/mBZEFR3LSNs
 
 ### BruteForce Approach (Using DFS) :
 
-![bruteforce_DFS](https://drive.google.com/file/d/14gxPRrreqZCG2K-ZCESn478n79_jwcZi/view?usp=sharing)
+![bruteforce_DFS](https://drive.google.com/uc?id=14gxPRrreqZCG2K-ZCESn478n79_jwcZ)
+
 1. We will find minimum by taking all the jobs one by one. As in the above image we will take 6 in first day. And in all other task on other day. So excluding 6 we have 5 max on other day.
 2. Same when we take 6,5 in first day and others on second day. So 4 will be maximum
 3. Like this we will do for every task. And in last all task will be on first day excluding 1. Means 6.5,4,3,2 will be on first day. And 1 on second day. So 6 will be maximum from 1st day and from second 1 will be maximum. So answer will be 6+1=7
