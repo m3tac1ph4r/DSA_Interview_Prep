@@ -1,3 +1,3 @@
-# leetcode
+# About Repository :
 
-This repository contains solution of leetcode daily challenge.
+This repository contains solution of leetcode and geekforgeeks daily challenge.
