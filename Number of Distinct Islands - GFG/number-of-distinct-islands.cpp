@@ -31,7 +31,7 @@ class Solution {
     }
   public:
     int countDistinctIslands(vector<vector<int>>& grid) {
-        // code here
+        // https://youtu.be/7zmgQSJghpo?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn
         int n=grid.size();
         int m=grid[0].size();
         vector<vector<bool>> visited(n,vector<bool>(m,false));
