@@ -4,15 +4,22 @@ public:
         string ans;
         if(s=="")
             return "";
-        for(int i=0;i<s.length();i++)
+        stack<int> st;
+        for(int i=0;i<s.size();i++)
         {
-            ans.push_back(s[i]);
-            while(ans.size()>0 and (ans.back()==s[i+1]+32 || ans.back()+32==s[i+1]))
+            st.push(s[i]);
+            while(!st.empty() and (st.top()+32==s[i+1] || st.top()==s[i+1]+32))
             {
-                ans.pop_back();
+                st.pop();
                 i++;
             }
         }
+        while(!st.empty())
+        {
+            ans.push_back(st.top());
+            st.pop();
+        }
+        reverse(ans.begin(),ans.end());
         return ans;
     }
 };
